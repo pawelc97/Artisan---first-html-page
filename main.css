@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner__banner {
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner__logo {
+  position: absolute;
+  z-index: 2;
+}
+
+@media (max-width: 786px) {
+  .banner__logo {
+    top: 15px;
+  }
+}
+
+@media (min-width: 786px) {
+  .banner__logo {
+    top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner__logo {
+    top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner__logo {
+    top: 110px;
+  }
+}
+
+.banner__scroll {
+  position: absolute;
+  z-index: 2;
+  bottom: 7.5%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .banner__scroll {
+    top: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner__scroll {
+    top: 41%;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner__scroll {
+    top: 54%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner__scroll {
+    top: 68%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner__scroll {
+    top: 710px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner__scroll {
+    top: 910px;
+  }
+}
+
+.navbar {
+  min-height: 57px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h2 {
+  font-size: 36 px;
+  color: black;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.paragraph1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 550;
+  color: gray;
+  padding-bottom: 70px;
+}
+
+.paragraph2 {
+  text-align: auto;
+  font-family: 'Arial', Times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+  padding-bottom: 30px;
+}
+
+.paragraph3 {
+  font-family: 'Arial', Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  pading-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.paragraph4 {
+  margin-top: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-weight: 550;
+  color: black;
+}
+
+.bg-jumpers {
+  background-color: white;
+}
+
+footer {
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.jumbotron {
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
